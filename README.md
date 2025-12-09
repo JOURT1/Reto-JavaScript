@@ -1,36 +1,54 @@
-# ⏰ Reloj Analógico con JavaScript y CSS
+# ⏰ CSS + JS Clock
 
-Un reloj analógico funcional y animado creado con HTML, CSS y JavaScript vanilla. Este proyecto demuestra el uso de transformaciones CSS, manipulación del DOM y la API de fechas de JavaScript.
+Un reloj analógico funcional y animado creado con HTML, CSS y JavaScript vanilla. Este proyecto demuestra el uso de transformaciones CSS, manipulación del DOM y la API de fechas de JavaScript para crear un reloj que muestra la hora actual en tiempo real.
 
-![Reloj JS y CSS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+## 📋 Descripción del Reto
+
+**Nombre del Reto:** CSS + JS Clock
+
+**Objetivo:** Crear un reloj analógico funcional que muestre la hora actual del sistema, utilizando JavaScript para calcular los ángulos de rotación de las manecillas y CSS para las animaciones y el diseño visual.
+
+## 🛠️ Tecnologías Utilizadas
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## 📋 Descripción
+- **HTML5** - Estructura del reloj
+- **CSS3** - Estilos, animaciones y transformaciones
+- **JavaScript (Vanilla)** - Lógica del reloj y actualización en tiempo real
 
-Este proyecto es un reloj analógico que muestra la hora actual en tiempo real. Las manecillas del reloj (hora, minutos y segundos) se actualizan cada segundo mediante JavaScript, y las animaciones suaves se logran con transiciones CSS.
+## 📸 Captura de Pantalla
 
-## ✨ Características
+![Funcionamiento en Deploy](IMG/ImgFuncEnDeploy.png)
 
-- ⏱️ **Actualización en tiempo real**: El reloj se actualiza cada segundo
-- 🎨 **Diseño elegante**: Interfaz minimalista con sombras y efectos visuales
-- 🔄 **Animaciones suaves**: Transiciones CSS con efecto de rebote
-- 📱 **Responsive**: Se adapta a diferentes tamaños de pantalla
-- 🎯 **Precisión**: Cálculo exacto de ángulos para cada manecilla
+## 🚀 Instrucciones de Instalación y Ejecución Local
 
-## 🚀 Cómo usar
+### Opción 1: Descarga Directa
+1. Descarga el archivo `index.html` del repositorio
+2. Abre el archivo en tu navegador web favorito
+3. ¡El reloj comenzará a funcionar automáticamente!
 
-1. **Clonar el repositorio**:
-   ```bash
-   git clone https://github.com/JOURT1/Reto-JavaScript.git
-   ```
+### Opción 2: Clonar el Repositorio
+```bash
+# Clonar el repositorio
+git clone https://github.com/JOURT1/Reto-JavaScript.git
 
-2. **Abrir el archivo**:
-   - Simplemente abre `index-FINISHED.html` en tu navegador web
-   - No requiere instalación de dependencias ni servidor
+# Navegar al directorio
+cd Reto-JavaScript
 
-3. **Ver el reloj**:
-   - El reloj comenzará a funcionar automáticamente mostrando la hora actual
+# Abrir index.html en tu navegador
+# En Windows:
+start index.html
+
+# En macOS:
+open index.html
+
+# En Linux:
+xdg-open index.html
+```
+
+**Nota:** No se requiere instalación de dependencias ni servidor local. Es un proyecto 100% estático.
 
 ## 🎨 Estructura CSS
 
@@ -162,9 +180,15 @@ Las manecillas comienzan horizontalmente apuntando a la derecha (posición de la
 
 ## 🎯 Archivos del Proyecto
 
-- **`index-FINISHED.html`**: Versión completa y funcional del reloj
-- **`index-START.html`**: Plantilla inicial para práctica
+- **`index.html`**: Versión completa y funcional del reloj
 - **`README.md`**: Este archivo de documentación
+- **`IMG/ImgFuncEnDeploy.png`**: Captura de pantalla del funcionamiento
+
+## 🌐 Despliegue en Vivo
+
+🚀 **Ver proyecto en funcionamiento:** [https://reto-java-script-eosin.vercel.app](https://reto-java-script-eosin.vercel.app)
+
+El proyecto está desplegado en **Vercel** y se actualiza automáticamente con cada push a la rama `main`.
 
 ## 🌟 Mejoras Posibles
 
@@ -185,8 +209,9 @@ Las manecillas comienzan horizontalmente apuntando a la derecha (posición de la
 
 ## 👨‍💻 Autor
 
-**JOURT1**
+**Jhoel Alexander Suarez Santander**
 - GitHub: [@JOURT1](https://github.com/JOURT1)
+- Proyecto: CSS + JS Clock
 
 ## 📄 Licencia
 
@@ -195,3 +220,4 @@ Este proyecto es de código abierto y está disponible para uso educativo.
 ---
 
 ⭐ Si te gustó este proyecto, ¡dale una estrella en GitHub!
+
